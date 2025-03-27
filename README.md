@@ -3,13 +3,13 @@ class Koperasi:
     def __init__(self):
         self.anggota = {}
 
-    def tambah_anggota(self, nama):
-        if nama not in self.anggota:
+    def tambah_anggota("Fahri"):
+        if nama not in self.anggota:("Anggota tidak terdaftar"):
             self.anggota[nama] = {
-                'saldo': 0,
-                'simpanan': 0,
-                'pinjaman': 0,
-                'bunga': 0
+                "saldo": 10000,
+                "simpanan": 10000,
+                "pinjaman": 5000,
+                "bunga": 50
             }
             print(f"Anggota {nama} berhasil ditambahkan.")
         else:
