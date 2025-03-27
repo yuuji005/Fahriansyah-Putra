@@ -1,10 +1,9 @@
-# Fahriansyah-Putra
 class Koperasi:
     def __init__(self):
         self.anggota = {}
 
-    def tambah_anggota("Fahri"):
-        if nama not in self.anggota:("Anggota tidak terdaftar"):
+    def tambah_anggota(self, nama):
+        if nama not in self.anggota:
             self.anggota[nama] = {
                 "saldo": 10000,
                 "simpanan": 10000,
@@ -57,11 +56,10 @@ class Koperasi:
         else:
             print("Anggota tidak terdaftar.")
 
-
 # Contoh penggunaan
 koperasi = Koperasi()
 koperasi.tambah_anggota("Fahri")
-koperasi.tambah_simpanan("Fahri", 10000)
-koperasi.ambil_pinjaman("Fahri", 5000, 3)
-koperasi.bayar_cicilan("Fahri", 2000)
+koperasi.tambah_simpanan("Fahri", 5000)
+koperasi.ambil_pinjaman("Fahri", 2000, 3)
+koperasi.bayar_cicilan("Fahri", 1000)
 koperasi.tampilkan_data("Fahri")
